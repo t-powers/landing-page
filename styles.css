@@ -1,3 +1,14 @@
 body {
-  font-size: 45px;
+  font-size: 25px;
+  background-color: lightcyan;
 }
+
+.nav-bar {
+  display: flex;
+  background-color: blanchedalmond;
+  border: 1px solid red;
+}
+/* a {
+  text-decoration: none;
+  border: 1px solid red;
+} */
