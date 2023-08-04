@@ -1,14 +1,22 @@
 body {
   font-size: 25px;
-  background-color: lightcyan;
+  background-color: #f4edea;
 }
 
 .nav-bar {
   display: flex;
-  background-color: blanchedalmond;
-  border: 1px solid red;
+  height: 50px;
+  background-color: #12263a;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
 }
-/* a {
+a {
   text-decoration: none;
-  border: 1px solid red;
-} */
+  color: #c5d8d1;
+}
+
+/*
+Color palette
+https://coolors.co/palette/12263a-06bcc1-c5d8d1-f4edea-f4d1ae
+*/
