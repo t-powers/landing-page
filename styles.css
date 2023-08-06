@@ -26,9 +26,7 @@ div {
   text-decoration: none;
   background-color: #12263a;
 }
-.main-text {
-  display: flex;
-}
+
 .first-text {
   position: absolute;
   left: -10%;
