@@ -22,9 +22,9 @@ div {
 
 a {
   font-size: 26px;
-  flex-wrap: wrap;
   color: #f4d1ae;
   text-decoration: none;
+  background-color: #12263a;
 }
 .main-text {
   display: flex;
@@ -42,6 +42,7 @@ a {
 .cards {
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 20px;
 }
 /*
 Color palette
