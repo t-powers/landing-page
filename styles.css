@@ -53,14 +53,17 @@ div {
   text-decoration: none;
   color: #c5d8d1;
   padding: 20px;
+  text-align: center;
 }
 quote {
   background-color: #06bcc1;
   color: #12263a;
   padding: 150px;
   font-size: 32px;
+  text-align: center;
 }
 .footer {
+  padding: 20px;
   width: 100%;
   height: ;
   text-align: center;
