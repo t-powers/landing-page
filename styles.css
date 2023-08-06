@@ -43,20 +43,28 @@ div {
 .cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 10px;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .a-cards {
   flex-basis: 20%;
   background-color: #12263a;
   text-decoration: none;
   color: #c5d8d1;
+  padding: 20px;
 }
 quote {
   background-color: #06bcc1;
   color: #12263a;
+  padding: 150px;
+  font-size: 32px;
 }
-
+.footer {
+  width: 100%;
+  height: ;
+  text-align: center;
+}
 /*
 Color palette
 https://coolors.co/palette/12263a-06bcc1-c5d8d1-f4edea-f4d1ae
