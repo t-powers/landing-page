@@ -14,12 +14,13 @@ div {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 50px;
+  padding: 10px;
   margin-bottom: 10px;
 }
 
 a {
-  font-size: 30px;
+  font-size: 26px;
+  flex-wrap: wrap;
   color: #f4d1ae;
   text-decoration: none;
 }
