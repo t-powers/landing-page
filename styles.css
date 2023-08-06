@@ -39,16 +39,22 @@ div {
   -webkit-text-stroke: 3px #f4d1ae;
   transform: rotate(-90deg);
 }
+
 .cards {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 10px;
 }
 .a-cards {
-  background-color: #12263a;
   flex-basis: 20%;
+  background-color: #12263a;
   text-decoration: none;
-  color: #f4d1ae;
+  color: #c5d8d1;
+}
+quote {
+  background-color: #06bcc1;
+  color: #12263a;
 }
 
 /*
