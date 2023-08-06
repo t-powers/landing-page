@@ -8,7 +8,7 @@ body {
 div {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .nav-bar {
@@ -61,9 +61,9 @@ quote {
   text-align: center;
 }
 .footer {
-  padding: 20px;
-  width: 100%;
-  height: ;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
   text-align: center;
 }
 /*
