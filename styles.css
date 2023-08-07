@@ -39,11 +39,13 @@ div {
 }
 
 .cards {
+  height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 25px;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px;border:1px solid red; */
 }
 .a-cards {
   flex-basis: 20%;
@@ -71,16 +73,16 @@ quote {
 }
 
 .cta-section {
-  height: 300px;
+  height: 400px;
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .subscribe {
-  background-color: #f4edea;
-  border: 1px solid #12263a;
+  background-color: #c5d8d1;
+  border: 2px solid #06bcc1;
   margin: 20px;
   padding: 20px;
 }
@@ -89,7 +91,6 @@ button {
   height: 75px;
   align-self: center;
   font-size: 24px;
-  background-color: #f4d1ae;
 }
 /*
 Color palette
