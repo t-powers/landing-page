@@ -16,10 +16,14 @@ div {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
 }
-
+.logo {
+  height: 70px;
+  width: auto;
+  background-color: #06bcc1;
+}
 .nav-cards {
   font-size: 26px;
   color: #f4d1ae;
@@ -30,7 +34,7 @@ div {
 .first-text {
   position: absolute;
   left: -10%;
-  top: 22%;
+  top: 30%;
   transform: translate(-50%, -50%);
   font-size: 150px;
   color: #c5d8d1;
@@ -44,7 +48,7 @@ div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 70px;
   /* margin-bottom: 25px;border:1px solid red; */
 }
 .a-cards {
@@ -59,25 +63,19 @@ quote {
   background-color: #06bcc1;
   color: #12263a;
   padding: 150px;
-  margin-top: 20px;
+  margin-top: 70px;
   font-size: 32px;
   text-align: center;
 }
-.footer {
-  margin: 10px;
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
-  background-color: #12263a;
-  color: #f4d1ae;
-}
 
 .cta-section {
-  height: 400px;
+  margin-top: 70px;
+
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+
   /* border: 1px solid red; */
 }
 .subscribe {
@@ -91,6 +89,14 @@ button {
   height: 75px;
   align-self: center;
   font-size: 24px;
+}
+.footer {
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #12263a;
+  color: #f4d1ae;
 }
 /*
 Color palette
