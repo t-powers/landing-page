@@ -15,14 +15,14 @@ div {
   display: flex;
   background-color: #12263a;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   margin-bottom: 10px;
 }
 .logo {
   height: auto;
-  width: 60px;
+  width: 50px;
   background-color: #06bcc1;
 }
 .nav-cards {
@@ -30,6 +30,7 @@ div {
   color: #f4d1ae;
   text-decoration: none;
   background-color: #12263a;
+  text-align: center;
 }
 
 .cards {
@@ -49,10 +50,14 @@ div {
   padding: 20px;
   text-align: center;
 }
+.quote-container {
+  display: flex;
+}
 quote {
+  flex: 1 1 0;
   background-color: #06bcc1;
   color: #12263a;
-  padding: 150px;
+  padding: 100px 0px 100px 0px;
   margin-top: 70px;
   font-size: 32px;
   text-align: center;
