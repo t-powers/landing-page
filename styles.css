@@ -12,6 +12,7 @@ div {
 }
 
 .nav-bar {
+  display: flex;
   background-color: #12263a;
   flex-direction: row;
   justify-content: space-around;
@@ -20,28 +21,28 @@ div {
   margin-bottom: 10px;
 }
 .logo {
-  height: 70px;
-  width: auto;
+  height: auto;
+  width: 60px;
   background-color: #06bcc1;
 }
 .nav-cards {
-  font-size: 26px;
+  flex-basis: 20%;
   color: #f4d1ae;
   text-decoration: none;
   background-color: #12263a;
 }
 
 .cards {
-  height: 75px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   margin-top: 70px;
   /* margin-bottom: 25px;border:1px solid red; */
 }
 .a-cards {
   flex-basis: 20%;
+  align-items: center;
+  flex-wrap: wrap;
   background-color: #12263a;
   text-decoration: none;
   color: #f4d1ae;
