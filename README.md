@@ -1,3 +1,4 @@
 Read Me
 The Odin Project - Landing Page
-Check it out, dude!
+Caution- It is NOT mobile responsive, yet.
+Check it out!
