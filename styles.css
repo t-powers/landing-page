@@ -43,7 +43,7 @@ div {
 }
 
 .cards {
-  height: 150px;
+  height: 75px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
