@@ -30,7 +30,7 @@ div {
   color: #f4d1ae;
   text-decoration: none;
   background-color: #12263a;
-  text-align: center;
+  text-align: center;flex-wrap:wrap;
 }
 
 .cards {
